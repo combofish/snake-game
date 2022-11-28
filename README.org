@@ -1,0 +1,30 @@
+* Snake Game
+A snake game based on FLTK.
+
+[[https://raw.githubusercontent.com/combofish/snake-game/master/snake_game_demo.gif][file:snake_game_demo.gif]]
+
+** COMMENT 依赖
+
++ FLTK >= 1.3 :  A cross-platform C++ GUI toolkit.
+
+如果使用的是 ~Ubuntu Linux~，可用如下命令安装 ~FLTK~。
+
+#+BEGIN_SRC shell
+  sudo apt-get install libfltk1.3-dev
+#+END_SRC
+
+** 下载使用
+
+#+BEGIN_SRC shell
+  git clone https://github.com/combofish/snake-game && cd snake-game
+#+END_SRC
+
+*** 使用 Cmake 编译
+
+#+BEGIN_SRC shell
+  cmake . && make && ./Snake
+#+END_SRC
+
+** License
+
+[MIT](http://opensource.org/licenses/MIT)

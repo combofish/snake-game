@@ -20,5 +20,5 @@
  *
  */
 namespace snake_game {
-const double GAME_SPEED = 0.4;
+    const double GAME_SPEED = 0.4;
 } // namespace snake_game
